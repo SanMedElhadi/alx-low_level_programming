@@ -2,7 +2,7 @@
  * File: 0-putchar.c
  * Author: Mohammed Elhadi SANNEF <fm_SANNEF@esi.dz>
  */
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Prints _putchar.
