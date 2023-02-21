@@ -3,7 +3,7 @@
  * Author: Mohammed Elhadi SANNEF <fm_SANNEF@esi.dz>
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * add - Adds two integers.
