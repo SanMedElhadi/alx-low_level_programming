@@ -3,7 +3,7 @@
  * Author: Mohammed Elhadi SANNEF <fm_SANNEF@esi.dz>
  */
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
 
 /**
  * main - prints the largest prime factor of 612852475143.
@@ -13,7 +13,7 @@
 int main(void)
 {
 	long n = 612852475143;
-	int factor = 2;
+	long factor = 2;
 
 	while (factor <= math.sqrt(n))
 	{
@@ -23,6 +23,6 @@ int main(void)
 			factor++;
 	}
 
-	printf("%d", n);
+	printf("%ld", n);
 	return (0);
 }
