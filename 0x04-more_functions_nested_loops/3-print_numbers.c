@@ -1,0 +1,21 @@
+/*
+ * File: 3-print_numbers.c
+ * Author: Mohammed Elhadi SANNEF <fm_SANNEF@esi.dz>
+ */
+#include "main.h"
+
+/**
+ * print_numbers - Prints numbers from 0 to 9.
+ *
+ * Return: Always 1.
+ */
+void print_numbers(void)
+{
+	char ch;
+
+	for (ch = '0'; ch <= '9'; c++)
+		_putchar(ch);
+	_putchar('\n');
+
+	return (1);
+}
