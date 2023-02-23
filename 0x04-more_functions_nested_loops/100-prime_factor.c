@@ -12,17 +12,19 @@
  */
 int main(void)
 {
-	long n = 612852475143;
-	long factor = 2;
+	long x, maxf;
+	long number = 612852475143;
+	double square = sqrt(number);
 
-	while (factor <= math.sqrt(n))
+	for (x = 1; x <= square; x++)
 	{
-		if (n % factor == 0)
-			n /= factor;
-		else
-			factor++;
+		if (number % x == 0)
+		{
+			maxf = number / x;
+		}
 	}
 
-	printf("%ld", n);
+	printf("%ld\n", maxf);
+
 	return (0);
 }
