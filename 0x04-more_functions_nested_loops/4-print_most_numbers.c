@@ -6,8 +6,6 @@
 
 /**
  * print_most_numbers - print all numbers from 0 to 9 except 2,4.
- *
- * Return: Always 1
  */
 void print_most_numbers(void)
 {
@@ -17,6 +15,4 @@ void print_most_numbers(void)
 		if (ch != '2' && ch != '4')
 			_putchar(ch);
 	_putchar('\n');
-
-	return (1);
 }

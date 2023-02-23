@@ -7,8 +7,6 @@
 /**
  * print_diagonal - prints a diagonal line of length n.
  * @n : length of the diagonal line.
- *
- * Return: Always 1
  */
 void print_diagonal(int n)
 {
@@ -25,6 +23,4 @@ void print_diagonal(int n)
 				_putchar('\n');
 		}
 	_putchar('\n');
-
-	return (1);
 }

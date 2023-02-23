@@ -6,8 +6,6 @@
 
 /**
  * print_numbers - Prints numbers from 0 to 9.
- *
- * Return: Always 1.
  */
 void print_numbers(void)
 {
@@ -16,6 +14,4 @@ void print_numbers(void)
 	for (ch = '0'; ch <= '9'; c++)
 		_putchar(ch);
 	_putchar('\n');
-
-	return (1);
 }

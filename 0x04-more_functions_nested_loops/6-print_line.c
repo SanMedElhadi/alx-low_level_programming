@@ -7,8 +7,6 @@
 /**
  * print_line - print lines based on the entered number
  * @n : number of _ to print.
- *
- * Return: Always 1
  */
 void print_line(int n)
 {
@@ -18,7 +16,5 @@ void print_line(int n)
 		for (i = 0; i < n; i++)
 			_putchar('_');
 	_putchar('\n');
-
-	return (1);
 }
 

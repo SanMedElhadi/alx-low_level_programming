@@ -6,8 +6,6 @@
 
 /**
  * more_numbers - prints all numbers from 0 to 14, 10 times.
- *
- * Return: Always 1
  */
 void more_numbers(void)
 {
@@ -34,6 +32,4 @@ void more_numbers(void)
 		}
 		_putchar('\n');
 	}
-
-	return (1);
 }
