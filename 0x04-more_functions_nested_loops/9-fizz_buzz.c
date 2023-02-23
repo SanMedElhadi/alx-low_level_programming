@@ -4,6 +4,8 @@
  */
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - prints numbers from 1 to 100, with add. treatment.
  *
